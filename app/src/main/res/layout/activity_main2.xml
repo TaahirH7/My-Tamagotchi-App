@@ -19,51 +19,50 @@
 
     <Button
         android:id="@+id/feedButton"
-        android:layout_width="0dp"
+        android:layout_width="116dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="8dp"
         android:backgroundTint="@color/accentColor"
         android:onClick="onFeedClicked"
         android:text="Feed"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/cleanButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/dogImageView" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
 
     <Button
         android:id="@+id/cleanButton"
-        android:layout_width="0dp"
+        android:layout_width="119dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/accentColor"
         android:onClick="onCleanClicked"
         android:text="Clean"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:backgroundTint="@color/accentColor"
-        app:layout_constraintBottom_toBottomOf="@id/feedButton"
-        app:layout_constraintEnd_toStartOf="@id/playButton"
-        app:layout_constraintStart_toEndOf="@id/feedButton"
-        app:layout_constraintTop_toTopOf="@id/feedButton" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
 
     <Button
         android:id="@+id/playButton"
-        android:layout_width="0dp"
+        android:layout_width="127dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/accentColor"
         android:onClick="onPlayClicked"
         android:text="Play"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:backgroundTint="@color/accentColor"
-        app:layout_constraintBottom_toBottomOf="@id/feedButton"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/cleanButton"
-        app:layout_constraintTop_toTopOf="@id/feedButton" />
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
 
     <TextView
         android:id="@+id/healthTextView"

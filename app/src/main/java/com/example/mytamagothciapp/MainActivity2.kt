@@ -34,7 +34,7 @@ class GameActivity : AppCompatActivity() {
         cleanlinessTextView = findViewById(R.id.cleanlinessTextView)
     }
 
-    fun onFeedClicked() {
+    fun onFeedClicked(view: android.view.View) {
         dogImageView.setImageResource(R.drawable.dogeat)
         // The values will change based on the instructions below
         health += 10
@@ -45,7 +45,7 @@ class GameActivity : AppCompatActivity() {
         Toast.makeText(this, "Feeding the dog!", Toast.LENGTH_SHORT).show()
     }
 
-    fun onCleanClicked() {
+    fun onCleanClicked(view: android.view.View) {
         dogImageView.setImageResource(R.drawable.dogbath)
         // The values will change based on the instructions below
         health += 20
@@ -56,7 +56,7 @@ class GameActivity : AppCompatActivity() {
         Toast.makeText(this, "Cleaning the dog!", Toast.LENGTH_SHORT).show()
     }
 
-    fun onPlayClicked() {
+    fun onPlayClicked(view: android.view.View) {
         dogImageView.setImageResource(R.drawable.dogplay)
         // The values will change based on the instructions below
         hunger += 20
