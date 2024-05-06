@@ -18,10 +18,11 @@ GitHub and GitHub Actions: Version control, teamwork, and automation are made po
 GitHub Repository
 The source code for the Tamagotchi app is available in the following GitHub repository: 
 My-Tamagotchi-App/ at main · TaahirH7/My-Tamagotchi-App (github.com)
+
 Utilization of GitHub and GitHub Actions
 Version Control: Git version control and GitHub hosting provide effective collaboration and code change tracking for the project.
-
 GitHub Actions: GitHub Actions workflows are used for the app's automated testing and construction. The app's dependability and stability in a variety of settings are guaranteed by continuous integration.
+
 Manual Testing
 Extensive manual testing has been carried out to guarantee the seamless operation of the application, encompassing all user interactions and transitions. It is confirmed that the pet's status values appropriately reflect user activities and gradually decline to reflect the pet's needs.
 
